@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
-    <title>不才才 bucaicai</title>
-    <meta name="description" content="95后青年，后端开发者，略懂前端, 学生，实习，缺乏社会的毒打">
-    <meta name="keywords" content="Java,Spring,个人博客，微信小程序，博客">
+    <title>Toby Chung</title>
+    <meta name="description" content="一个普通的干饭人">
+    <meta name="keywords" content="Toby, Chung, Blog, 博客">
     <meta name="format-detection" content="telephone=no">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="static/css/index.css">
@@ -47,20 +47,20 @@
                         <div class="card-content">
                             <div class="card-info-avatar is-center">
                                 <img class="avatar-img"
-                                    src="https://cdn.jsdelivr.net/gh/laoxuai/assert/images/20200125221102.png"
+                                    src="./static/1080白底.png"
                                     alt="avatar">
-                                <div class="author-info__name">Bucaicai</div>
-                                <div class="author-info__description">95后青年，后端开发者，略懂前端, <s>学生，实习</s>，缺乏社会的毒打</div>
+                                <div class="author-info__name">Toby Chung</div>
+                                <div class="author-info__description">一个普通的干饭人</div>
                             </div>
                             <div class="card-info-social-icons is-center">
-                                <a class="social-icon" href="https://github.com/laoxuai" target="_blank">
+                                <a class="social-icon" href="https://github.com/tractortoby" target="_blank">
                                     <i class="fa fa-github"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card-widget card-announcement">
+                    <!-- <div class="card-widget card-announcement">
                         <div class="card-content">
                             <div class="item-headline">
                                 <i class="fa fa-bullhorn" aria-hidden="true"></i>
@@ -68,7 +68,7 @@
                             </div>
                             <div id="hitokoto"></div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="card-widget card-announcement">
                         <div class="card-content">
                             <div class="item-headline">
@@ -79,7 +79,7 @@
                         </div>
                     </div>
 
-                    <div class="card-widget card-webinfo">
+                    <!-- <div class="card-widget card-webinfo">
                         <div class="card-content">
                             <div class="item-headline">
                                 <i class="fa fa-line-chart" aria-hidden="true"></i>
@@ -96,17 +96,18 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <article id="page">
                     <div class="article-container">
-                        <h2>音乐</h2>
-                        <meting-js auto="https://y.qq.com/n/yqq/playlist/7713574197.html">
+                        <h2>Music</h2>
+                        <meting-js auto="https://y.qq.com/n/yqq/playlist/8609123642.html">
                         </meting-js>
                         <hr>
 
-                        <h2>技能</h2>
-                        <div class="skillbox">
+                        <h2>About Me</h2>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magni numquam, ut quos similique earum. Maxime rem delectus saepe pariatur odio dignissimos, illo reiciendis natus alias, dolore quaerat distinctio harum?</div>
+                        <!-- <div class="skillbox">
                             <div class="skillbar">
                                 <div class="skillbar-title"
                                     style="background: linear-gradient(to right, #FF0066 0%, #FF00CC 100%); width: 75%">
@@ -156,7 +157,7 @@
                                 </div>
                                 <div class="skill-bar-percent">75%</div>
                             </div>
-                        </div>
+                        </div> -->
 
                         <hr>
                         <h2>刷题</h2>
@@ -178,7 +179,7 @@
         </main>
         <footer id="footer">
             <div id="footer-wrap">
-                <div class="copyright">&copy;2019 - 2021 BY Bucaicai</div>
+                <div class="copyright">Copyright &copy2022 All rights reserved</div>
             </div>
         </footer>
     </div>
@@ -263,12 +264,12 @@
         document.addEventListener('visibilitychange', function () {
             if (document.hidden) {
                 // $('[rel="icon"]').attr('href', "/funny.ico");
-                document.title = '╭(°A°`)╮ 页面崩溃啦 ~';
+                document.title = '页面崩溃啦';
                 clearTimeout(titleTime);
             }
             else {
                 $('[rel="icon"]').attr('href', "/favicon.ico");
-                document.title = '(ฅ>ω<*ฅ) 噫又好啦 ~' + OriginTitle;
+                document.title = '噫又好啦' + OriginTitle;
                 titleTime = setTimeout(function () {
                     document.title = OriginTitle;
                 }, 2000);
