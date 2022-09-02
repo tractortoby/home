@@ -235,7 +235,7 @@ aside_content .card-info .author-info__description {
 #aside_content .card-info .card-info-social-icons {
     margin: .3rem 0 -.3rem;
 }
-#aside_content .card-info .card-info-social-icons {
+#aside_content .card-info .card-info-social-icons .social-icon {
     margin: 0 .5rem;
     color: #4c4948;
     font-size: 1.5rem;
